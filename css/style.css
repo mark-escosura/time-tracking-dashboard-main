@@ -105,6 +105,9 @@ body {
       bottom: 9%;
       padding: 17px;
       color: var(--color-primary-white); }
+      #container .activity .min-container:hover {
+        background-color: hsla(235, 46%, 20%,.5);
+        cursor: pointer; }
       #container .activity .min-container .title-container {
         display: flex;
         justify-content: space-between;

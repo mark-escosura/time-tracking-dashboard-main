@@ -13,6 +13,7 @@ fetchData();
 /**
  * @desc set color according to which period is "clicked"
  */
+
 function setColor() {
   periods.forEach((period) => {
     period.addEventListener('click', () => {
